@@ -52,7 +52,7 @@ jobs:
               if: success()
               with:
                 severity: info
-                details: to https://github.com/nguyenductung2709-dt/Full-Stack-Web-Development-Part-11 by tung
+                details: to https://github.com/nguyenductung2709-dt/Blog_Task by tung
                 webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
 
             - name: Test Failure
